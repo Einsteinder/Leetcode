@@ -7,6 +7,7 @@ class Solution:
 			if bits[i]==0:
 				if i == len(bits)-1:
 					return True
+				i += 1
 			if bits[i]==1:
 				if i == len(bits)-2:
 					return False
