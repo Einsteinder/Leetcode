@@ -37,6 +37,7 @@ class Solution:
 
 
 
+
 x = Solution()
 print(x.twoSum([0,4,0,4],0))
 
