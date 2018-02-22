@@ -15,23 +15,14 @@ class Solution:
 			if s:
 				for i in range(len(s)):
 					j = 0
-					print("i",i)
-					bank =[]
+					bank ={}
 					for k in range(i,len(s)):
-						print("k",k)
-						print("len",len(s[i:]))
-						print(k)
-						print("s[k]",s[k])
-						print(bank)
 						if s[k] in bank:
 							break
 						else:
 							j+=1
-							print(s[k])
-							bank.append(s[k])
-						print(bank)
+							bank[s[k]]=0
 					lengthList.append(j)
-				print(lengthList)
 				return max(lengthList)
 			else:
 				return 0
