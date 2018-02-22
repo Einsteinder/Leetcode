@@ -9,23 +9,19 @@ inputString = "pwwkew"
 
 
 class Solution:
-		def lengthOfLongestSubstring(self, s):
-			lengthList = []
-			lengthList.append(1)
-			if s:
-				for i in range(len(s)):
-					j = 0
-					bank ={}
-					for k in range(i,len(s)):
-						if s[k] in bank:
-							break
-						else:
-							j+=1
-							bank[s[k]]=0
-					lengthList.append(j)
-				return max(lengthList)
-			else:
-				return 0
+	def lengthOfLongestSubstring(self, s):
+		bank = {}
+		pointer = 0
+		maxValue = 0
+		for index,value in enumerate(s):
+			if value in bank:
+				pointer = max(pointer,bank[value]+1)
+			maxValue = max(maxValue,index-pointer+1)
+			bank[value]=index
+
+		return maxValue
+
+
 
 
 so = Solution()
