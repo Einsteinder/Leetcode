@@ -4,9 +4,10 @@ class ListNode:
 		self.val = x
 		self.next = None
 
-#Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-#Output: 7 -> 0 -> 8
-#Explanation: 342 + 465 = 807.
+# Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+# Output: 7 -> 0 -> 8
+# Explanation: 342 + 465 = 807.
+
 	
 nodeL1 = ListNode(2)
 nodeL1.next = ListNode(4)
@@ -33,11 +34,13 @@ class Solution:
 			result_node.next = ListNode(sum%10)
 			result_node = result_node.next
 		if sum//10 == 1:
-			result_node.next =ListNode(1)
+			result_node.next = ListNode(1)
 		return head_node.next
 
+
 so = Solution()
-result = so.addTwoNumbers(nodeL1,nodeL2)
+
+result = so.addTwoNumbers(nodeL1, nodeL2)
 print(result.val)
 print(result.next.val)
 print(result.next.next.val)
