@@ -6,6 +6,7 @@ number = 210111
 count = 0 
 def answer(n, b):
 	resultList = []
+	resultReal =[]
 	def inanswer(n,b):
 		originalN =n
 		numberList = []
@@ -26,19 +27,19 @@ def answer(n, b):
 			zList.insert(0,resultNumber)
 			zList =[str(i) for i in zList]
 		n="".join(zList)
-		print(n)
 		b=b
 		if n in resultList:
-			print(resultList.index(n))
-			print(len(resultList[resultList.index(n):]))
+			result=(len(resultList[resultList.index(n):]))
+			resultReal.append(result)
+			return resultReal
 		else:
 			resultList.append(n)
 			inanswer(n,b)
 
 
 		
-	inanswer(n,b)
-	print(resultList)
+	result=inanswer(n,b)
+	return resultReal[0]
 
 
 
