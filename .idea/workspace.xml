@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="10 WORKS">
-      <change beforePath="" afterPath="$PROJECT_DIR$/11. Container With Most Water.py" />
+    <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/12. Integer to Roman.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1531797119988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$byte__1_.coverage" NAME="byte (1) Coverage Results" MODIFIED="1523762714501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$TT.coverage" NAME="TT Coverage Results" MODIFIED="1523760688678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$12__Integer_to_Roman.coverage" NAME="12. Integer to Roman Coverage Results" MODIFIED="1532574353468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Task2.coverage" NAME="Task2 Coverage Results" MODIFIED="1523981268067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/investigate_texts_and_calls_jason/investigate texts and calls/ZH" />
     <SUITE FILE_PATH="coverage/Leetcode$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1520137780841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$2__Add_Two_Numbers.coverage" NAME="2. Add Two Numbers Coverage Results" MODIFIED="1519252521383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -94,11 +95,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11. Container With Most Water.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="11. Container With Most Water.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11. Container With Most Water.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="493">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12. Integer to Roman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12. Integer to Roman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -144,6 +155,7 @@
         <option value="$PROJECT_DIR$/9. Palindrome Number.py" />
         <option value="$PROJECT_DIR$/10. Regular Expression Matching.py" />
         <option value="$PROJECT_DIR$/11. Container With Most Water.py" />
+        <option value="$PROJECT_DIR$/12. Integer to Roman.py" />
       </list>
     </option>
   </component>
@@ -160,9 +172,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1602" />
-    <option name="y" value="-79" />
-    <option name="width" value="1702" />
+    <option name="x" value="1463" />
+    <option name="y" value="-11" />
+    <option name="width" value="1863" />
     <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -220,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11. Container With Most Water">
+  <component name="RunManager" selected="Python.12. Integer to Roman">
     <configuration name="10. Regular Expression Matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,7 +271,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="5. Longest Palindromic Substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="12. Integer to Roman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -272,9 +284,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. Longest Palindromic Substring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Integer to Roman.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -317,19 +329,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5. Longest Palindromic Substring" />
-      <item index="1" class="java.lang.String" itemvalue="Python.6. ZigZag Conversion" />
-      <item index="2" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
-      <item index="3" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+      <item index="0" class="java.lang.String" itemvalue="Python.6. ZigZag Conversion" />
+      <item index="1" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
+      <item index="2" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+      <item index="4" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
-        <item index="1" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
-        <item index="2" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
-        <item index="3" class="java.lang.String" itemvalue="Python.6. ZigZag Conversion" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5. Longest Palindromic Substring" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+        <item index="2" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
+        <item index="4" class="java.lang.String" itemvalue="Python.6. ZigZag Conversion" />
       </list>
     </recent_temporary>
   </component>
@@ -368,20 +380,26 @@
       <option name="project" value="LOCAL" />
       <updated>1532565394485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11 WORKS">
+      <created>1532567339167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532567339167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1602" y="-79" width="1702" height="971" extended-state="0" />
-    <editor active="true" />
+    <frame x="1463" y="-11" width="1863" height="971" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37486094" sideWeight="0.5070505" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.49529964" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762557" sideWeight="0.49529964" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37486094" sideWeight="0.4929495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3847032" sideWeight="0.4929495" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1733255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1619989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -418,7 +436,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Time Limit Exceeded" />
     <MESSAGE value="10 WORKS" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 WORKS" />
+    <MESSAGE value="11 WORKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="11 WORKS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,14 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/76. Minimum Window Substring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LiveR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -677,8 +688,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11. Container With Most Water.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="493">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12. Integer to Roman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
         </state>
       </provider>
