@@ -1,40 +1,19 @@
 class Solution:
     def convert(self, s, numRows):
-        table = []
-        column = (len(s) // (numRows * 2 - 2)) * (numRows - 1) + 1 + (len(s) % (numRows * 2 - 2)) % numRows \
-            if len(s) % (numRows * 2 - 2) > numRows \
-            else (len(s) // (numRows * 2 - 2)) * (numRows - 1) + 1
-        for i in range(numRows):
-            tableRow=[]
-            for j in range(column):
-                tableRow.append(0)
-            table.append(tableRow)
-        orderList = []
-        for j in range(len(table[0])):
-            if j % (numRows-1) == 0:
-                for k in range(numRows):
-                    orderList.append([k,j])
-            else:
-                orderList.append([numRows-1-(j % (numRows-1)),j ])
-        print(orderList)
-        generateOrder = (order for order in orderList)
-
+        if numRows==1:
+            return s
+        row = []
+        for i in range(min(numRows,len(s))):
+            row.append("")
+        goingDown = False
+        curRow = 0
         for c in s:
-            x,y = next(generateOrder)
-            print(x,y)
-            table[x][y]=c
-        newString = ""
-        for subList in table:
-            for item in subList:
-                if item != 0:
-                    newString+=item
+            row[curRow] += c
+            if curRow == 0 or curRow == numRows-1:
+                goingDown = not goingDown
+            curRow += 1 if goingDown else -1
+        return "".join(row)
 
-        return newString
-        """
-        :type s: str
-        :type numRows: int
-        :rtype: str
-        """
 
 so = Solution()
-print(so.convert("PAYPALISHIRING",1))
+print(so.convert("PAYPALISHIRING",3))
