@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/14. Longest Common Prefix.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/15. 3Sum.py" afterPath="$PROJECT_DIR$/15. 3Sum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$Task4.coverage" NAME="Task4 Coverage Results" MODIFIED="1523973539089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/investigate_texts_and_calls_jason/investigate texts and calls/ZH" />
     <SUITE FILE_PATH="coverage/Leetcode$Task3__1_.coverage" NAME="Task3 (1) Coverage Results" MODIFIED="1523981237310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/investigate_texts_and_calls_jason/investigate texts and calls/ZH" />
+    <SUITE FILE_PATH="coverage/Leetcode$15__3Sum.coverage" NAME="15. 3Sum Coverage Results" MODIFIED="1532787841718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$11__Container_With_Most_Water.coverage" NAME="11. Container With Most Water Coverage Results" MODIFIED="1532567313823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$byte.coverage" NAME="byte Coverage Results" MODIFIED="1523761213087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/submit (25)/submit" />
     <SUITE FILE_PATH="coverage/Leetcode$6__ZigZag_Conversion.coverage" NAME="6. ZigZag Conversion Coverage Results" MODIFIED="1531694719138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,26 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4. Median of Two Sorted Arrays.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4. Median of Two Sorted Arrays.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="5. Longest Palindromic Substring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,11 +107,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="14. Longest Common Prefix.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="14. Longest Common Prefix.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14. Longest Common Prefix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="42. Trapping Rain Water.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/42. Trapping Rain Water.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="15. 3Sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15. 3Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -162,7 +163,6 @@
         <option value="$PROJECT_DIR$/LiveR.py" />
         <option value="$PROJECT_DIR$/LiveR2.py" />
         <option value="$PROJECT_DIR$/TT.py" />
-        <option value="$PROJECT_DIR$/15. 3Sum.py" />
         <option value="$USER_HOME$/Downloads/submit (25)/submit/byte.py" />
         <option value="$USER_HOME$/Downloads/submitcao/submit/byte.py" />
         <option value="$PROJECT_DIR$/byte.py" />
@@ -179,6 +179,7 @@
         <option value="$PROJECT_DIR$/12. Integer to Roman.py" />
         <option value="$PROJECT_DIR$/13. Roman to Integer.py" />
         <option value="$PROJECT_DIR$/14. Longest Common Prefix.py" />
+        <option value="$PROJECT_DIR$/15. 3Sum.py" />
       </list>
     </option>
   </component>
@@ -195,8 +196,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1556" />
-    <option name="y" value="-101" />
+    <option name="x" value="1460" />
+    <option name="y" value="-115" />
     <option name="width" value="1863" />
     <option name="height" value="971" />
   </component>
@@ -255,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14. Longest Common Prefix">
+  <component name="RunManager" selected="Python.15. 3Sum">
     <configuration name="10. Regular Expression Matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,7 +333,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="9. Palindrome Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15. 3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -345,26 +346,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9. Palindrome Number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15. 3Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
-      <item index="1" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
-      <item index="3" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
-      <item index="4" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
+      <item index="0" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
+      <item index="1" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+      <item index="2" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
+      <item index="3" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
+      <item index="4" class="java.lang.String" itemvalue="Python.15. 3Sum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
-        <item index="1" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
-        <item index="3" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
-        <item index="4" class="java.lang.String" itemvalue="Python.9. Palindrome Number" />
+        <item index="0" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
+        <item index="2" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
+        <item index="3" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+        <item index="4" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
       </list>
     </recent_temporary>
   </component>
@@ -445,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532575713407</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="13 Accept">
+      <created>1532660576301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532660576301</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1556" y="-101" width="1863" height="971" extended-state="0" />
+    <frame x="1460" y="-115" width="1863" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -549,14 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/76. Minimum Window Substring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LiveR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -664,13 +664,6 @@
     <entry file="file://$USER_HOME$/Downloads/submit/submit/Task1.py" />
     <entry file="file://$USER_HOME$/Downloads/submit/submit/Task3.py" />
     <entry file="file://$USER_HOME$/Downloads/submit/submit/Task0.py" />
-    <entry file="file://$PROJECT_DIR$/15. 3Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -760,8 +753,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/14. Longest Common Prefix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/42. Trapping Rain Water.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15. 3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
