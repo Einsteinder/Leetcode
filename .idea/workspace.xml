@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/16. 3Sum Closest.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/15. 3Sum.py" afterPath="$PROJECT_DIR$/15. 3Sum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,21 +32,12 @@
     <SUITE FILE_PATH="coverage/Leetcode$LiveR2.coverage" NAME="LiveR2 Coverage Results" MODIFIED="1523275255141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$14__Longest_Common_Prefix.coverage" NAME="14. Longest Common Prefix Coverage Results" MODIFIED="1532660536736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$5__Longest_Palindromic_Substring.coverage" NAME="5. Longest Palindromic Substring Coverage Results" MODIFIED="1531589279105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$16__3Sum_Closest.coverage" NAME="16. 3Sum Closest Coverage Results" MODIFIED="1532836056221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$10__Regular_Expression_Matching.coverage" NAME="10. Regular Expression Matching Coverage Results" MODIFIED="1532567212592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$sha512.coverage" NAME="sha512 Coverage Results" MODIFIED="1524021078540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Dropbox/CS615/flag/level1_" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5. Longest Palindromic Substring.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5. Longest Palindromic Substring.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="6. ZigZag Conversion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6. ZigZag Conversion.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,11 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15. 3Sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="15. 3Sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15. 3Sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="754">
               <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16. 3Sum Closest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16. 3Sum Closest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -180,6 +181,7 @@
         <option value="$PROJECT_DIR$/13. Roman to Integer.py" />
         <option value="$PROJECT_DIR$/14. Longest Common Prefix.py" />
         <option value="$PROJECT_DIR$/15. 3Sum.py" />
+        <option value="$PROJECT_DIR$/16. 3Sum Closest.py" />
       </list>
     </option>
   </component>
@@ -196,8 +198,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1461" />
-    <option name="y" value="-112" />
+    <option name="x" value="1489" />
+    <option name="y" value="-100" />
     <option name="width" value="1863" />
     <option name="height" value="971" />
   </component>
@@ -256,26 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15. 3Sum">
-    <configuration name="10. Regular Expression Matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10. Regular Expression Matching.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.16. 3Sum Closest">
     <configuration name="11. Container With Most Water" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,20 +335,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="16. 3Sum Closest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16. 3Sum Closest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
-      <item index="1" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
-      <item index="2" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
-      <item index="3" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
-      <item index="4" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
+      <item index="1" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
+      <item index="2" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
+      <item index="3" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.16. 3Sum Closest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.15. 3Sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
-        <item index="3" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
-        <item index="4" class="java.lang.String" itemvalue="Python.10. Regular Expression Matching" />
+        <item index="0" class="java.lang.String" itemvalue="Python.16. 3Sum Closest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.15. 3Sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.14. Longest Common Prefix" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12. Integer to Roman" />
+        <item index="4" class="java.lang.String" itemvalue="Python.11. Container With Most Water" />
       </list>
     </recent_temporary>
   </component>
@@ -460,18 +462,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532787895441</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="15 AC">
+      <created>1532834736603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532834736603</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1461" y="-112" width="1863" height="971" extended-state="0" />
+    <frame x="1489" y="-100" width="1863" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37486094" sideWeight="0.5070505" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762557" sideWeight="0.49529964" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3847032" sideWeight="0.4929495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20091324" sideWeight="0.4929495" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1619989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,7 +524,8 @@
     <MESSAGE value="12 Correct Now" />
     <MESSAGE value="13 Accept" />
     <MESSAGE value="15 TLE" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 TLE" />
+    <MESSAGE value="15 AC" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 AC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -565,13 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LiveR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LiveR2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -779,6 +782,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16. 3Sum Closest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
