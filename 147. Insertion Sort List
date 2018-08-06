@@ -1,0 +1,31 @@
+# Definition for singly-linked list.
+# class ListNode:
+#    def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def insertionSortList(self, head):
+        if head:
+            arrayOfLink = []
+            while head is not None and head.next:
+                arrayOfLink.append(head.val)
+                head = head.next
+
+            arrayOfLink.append(head.val)
+
+            arrayOfLink.sort()
+            print(arrayOfLink)
+            newHead = ListNode(arrayOfLink[0])
+            tempHead = newHead
+            for i in range(1, len(arrayOfLink)):
+                print(i)
+
+                tempHead.next = ListNode(arrayOfLink[i])
+                tempHead = tempHead.next
+            return newHead
+
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
