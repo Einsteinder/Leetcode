@@ -1,3 +1,3 @@
-l="eferg"
-print("".join(sorted(l)))
-
+l={"eferg":1,"33":3}
+for i in l:
+    print(i)

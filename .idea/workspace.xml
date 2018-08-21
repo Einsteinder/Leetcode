@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/49. Group Anagrams.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/73. Set Matrix Zeroes.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/TT.py" afterPath="$PROJECT_DIR$/TT.py" />
     </list>
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$byte.coverage" NAME="byte Coverage Results" MODIFIED="1523761213087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/submit (25)/submit" />
     <SUITE FILE_PATH="coverage/Leetcode$49__Group_Anagrams.coverage" NAME="49. Group Anagrams Coverage Results" MODIFIED="1534882237553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1531797119988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$73__Set_Matrix_Zeroes.coverage" NAME="73. Set Matrix Zeroes Coverage Results" MODIFIED="1534883648786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$48__Rotate_Image.coverage" NAME="48. Rotate Image Coverage Results" MODIFIED="1534876329085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$21__Merge_Two_Sorted_Lists.coverage" NAME="21. Merge Two Sorted Lists Coverage Results" MODIFIED="1534873400328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$LiveR.coverage" NAME="LiveR Coverage Results" MODIFIED="1520196098625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -30,7 +31,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$5__Longest_Palindromic_Substring.coverage" NAME="5. Longest Palindromic Substring Coverage Results" MODIFIED="1531589279105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$6__ZigZag_Conversion.coverage" NAME="6. ZigZag Conversion Coverage Results" MODIFIED="1531694719138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$byte__1_.coverage" NAME="byte (1) Coverage Results" MODIFIED="1523762714501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Leetcode$TT.coverage" NAME="TT Coverage Results" MODIFIED="1534881845928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$TT.coverage" NAME="TT Coverage Results" MODIFIED="1534883465649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$12__Integer_to_Roman.coverage" NAME="12. Integer to Roman Coverage Results" MODIFIED="1532574694439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$23__Merge_k_Sorted_Lists.coverage" NAME="23. Merge k Sorted Lists Coverage Results" MODIFIED="1534873663050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Task2.coverage" NAME="Task2 Coverage Results" MODIFIED="1523981268067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/investigate_texts_and_calls_jason/investigate texts and calls/ZH" />
@@ -69,18 +70,28 @@
       <file leaf-file-name="TT.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="58">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="49. Group Anagrams.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="49. Group Anagrams.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/49. Group Anagrams.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
               <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="73. Set Matrix Zeroes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/73. Set Matrix Zeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -136,16 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8932">
-              <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -196,8 +197,9 @@
         <option value="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
         <option value="$PROJECT_DIR$/23. Merge k Sorted Lists.py" />
         <option value="$PROJECT_DIR$/48. Rotate Image.py" />
-        <option value="$PROJECT_DIR$/TT.py" />
         <option value="$PROJECT_DIR$/49. Group Anagrams.py" />
+        <option value="$PROJECT_DIR$/TT.py" />
+        <option value="$PROJECT_DIR$/73. Set Matrix Zeroes.py" />
       </list>
     </option>
   </component>
@@ -273,26 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.49. Group Anagrams">
-    <configuration name="21. Merge Two Sorted Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.73. Set Matrix Zeroes">
     <configuration name="23. Merge k Sorted Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,6 +333,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="73. Set Matrix Zeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/73. Set Matrix Zeroes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="TT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,18 +373,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.TT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.21. Merge Two Sorted Lists" />
-      <item index="2" class="java.lang.String" itemvalue="Python.23. Merge k Sorted Lists" />
-      <item index="3" class="java.lang.String" itemvalue="Python.48. Rotate Image" />
-      <item index="4" class="java.lang.String" itemvalue="Python.49. Group Anagrams" />
+      <item index="1" class="java.lang.String" itemvalue="Python.23. Merge k Sorted Lists" />
+      <item index="2" class="java.lang.String" itemvalue="Python.48. Rotate Image" />
+      <item index="3" class="java.lang.String" itemvalue="Python.49. Group Anagrams" />
+      <item index="4" class="java.lang.String" itemvalue="Python.73. Set Matrix Zeroes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.49. Group Anagrams" />
+        <item index="0" class="java.lang.String" itemvalue="Python.73. Set Matrix Zeroes" />
         <item index="1" class="java.lang.String" itemvalue="Python.TT" />
-        <item index="2" class="java.lang.String" itemvalue="Python.48. Rotate Image" />
-        <item index="3" class="java.lang.String" itemvalue="Python.23. Merge k Sorted Lists" />
-        <item index="4" class="java.lang.String" itemvalue="Python.21. Merge Two Sorted Lists" />
+        <item index="2" class="java.lang.String" itemvalue="Python.49. Group Anagrams" />
+        <item index="3" class="java.lang.String" itemvalue="Python.48. Rotate Image" />
+        <item index="4" class="java.lang.String" itemvalue="Python.23. Merge k Sorted Lists" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534875598419</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="49 AC 43.61%">
+      <created>1534882299069</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534882299069</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,7 +613,8 @@
     <MESSAGE value="21 AC" />
     <MESSAGE value="23 AC" />
     <MESSAGE value="48 AC 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="48 AC 100%" />
+    <MESSAGE value="49 AC 43.61%" />
+    <option name="LAST_COMMIT_MESSAGE" value="49 AC 43.61%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,7 +669,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/UDReviewSupportFile/bestMovie copy/movies.csv" />
     <entry file="file://$PROJECT_DIR$/LiveR2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
@@ -870,18 +879,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/49. Group Anagrams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/73. Set Matrix Zeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
