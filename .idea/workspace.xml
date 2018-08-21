@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/20. Valid Parentheses.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TT.py" afterPath="$PROJECT_DIR$/TT.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +19,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$11__Container_With_Most_Water.coverage" NAME="11. Container With Most Water Coverage Results" MODIFIED="1532567313823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$byte.coverage" NAME="byte Coverage Results" MODIFIED="1523761213087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/submit (25)/submit" />
     <SUITE FILE_PATH="coverage/Leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1531797119988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$21__Merge_Two_Sorted_Lists.coverage" NAME="21. Merge Two Sorted Lists Coverage Results" MODIFIED="1534872415547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$LiveR.coverage" NAME="LiveR Coverage Results" MODIFIED="1520196098625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$14__Longest_Common_Prefix.coverage" NAME="14. Longest Common Prefix Coverage Results" MODIFIED="1532660536736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$17__Letter_Combinations_of_a_Phone_Number.coverage" NAME="17. Letter Combinations of a Phone Number Coverage Results" MODIFIED="1534639005717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -42,16 +42,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14. Longest Common Prefix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14. Longest Common Prefix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="42. Trapping Rain Water.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/42. Trapping Rain Water.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20. Valid Parentheses.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20. Valid Parentheses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20. Valid Parentheses.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
               <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="21. Merge Two Sorted Lists.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -190,6 +190,7 @@
         <option value="$PROJECT_DIR$/17. Letter Combinations of a Phone Number.py" />
         <option value="$PROJECT_DIR$/TT.py" />
         <option value="$PROJECT_DIR$/20. Valid Parentheses.py" />
+        <option value="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
       </list>
     </option>
   </component>
@@ -265,26 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20. Valid Parentheses">
-    <configuration name="16. 3Sum Closest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16. 3Sum Closest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.21. Merge Two Sorted Lists">
     <configuration name="17. Letter Combinations of a Phone Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,6 +300,25 @@
       <module name="Leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20. Valid Parentheses.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="21. Merge Two Sorted Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,19 +363,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.16. 3Sum Closest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.33. Search in Rotated Sorted Array" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TT" />
-      <item index="3" class="java.lang.String" itemvalue="Python.17. Letter Combinations of a Phone Number" />
-      <item index="4" class="java.lang.String" itemvalue="Python.20. Valid Parentheses" />
+      <item index="0" class="java.lang.String" itemvalue="Python.33. Search in Rotated Sorted Array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TT" />
+      <item index="2" class="java.lang.String" itemvalue="Python.17. Letter Combinations of a Phone Number" />
+      <item index="3" class="java.lang.String" itemvalue="Python.20. Valid Parentheses" />
+      <item index="4" class="java.lang.String" itemvalue="Python.21. Merge Two Sorted Lists" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.20. Valid Parentheses" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TT" />
-        <item index="2" class="java.lang.String" itemvalue="Python.17. Letter Combinations of a Phone Number" />
-        <item index="3" class="java.lang.String" itemvalue="Python.33. Search in Rotated Sorted Array" />
-        <item index="4" class="java.lang.String" itemvalue="Python.16. 3Sum Closest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.21. Merge Two Sorted Lists" />
+        <item index="1" class="java.lang.String" itemvalue="Python.20. Valid Parentheses" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TT" />
+        <item index="3" class="java.lang.String" itemvalue="Python.17. Letter Combinations of a Phone Number" />
+        <item index="4" class="java.lang.String" itemvalue="Python.33. Search in Rotated Sorted Array" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534639082063</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20 AC">
+      <created>1534868693422</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1534868693422</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,7 +572,8 @@
     <MESSAGE value="33 AC" />
     <MESSAGE value="147 AC" />
     <MESSAGE value="17 AC" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 AC" />
+    <MESSAGE value="20 AC" />
+    <option name="LAST_COMMIT_MESSAGE" value="20 AC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,16 +628,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dijkstra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/doubanmovie/movies.csv" />
     <entry file="file://$USER_HOME$/Downloads/submit (4)/submit/movies.csv" />
     <entry file="file://$USER_HOME$/Downloads/submit (7)/movies.csv" />
@@ -823,6 +822,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
