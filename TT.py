@@ -1,3 +1,3 @@
-l={"eferg":1,"33":3}
-for i in l:
-    print(i)
+a = [1,2,3]
+b = [2]
+print(a and b)
