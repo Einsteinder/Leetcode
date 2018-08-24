@@ -1,42 +1,30 @@
-import queue as queue
+from collections import deque
 class Solution:
-
-    def diff(self,w1,w2):
-        count = 0
-        for i in range(len(w1)):
-            if w1[i] != w2[i]:
-                count += 1
-        return count
-
     def ladderLength(self, beginWord, endWord, wordList):
+        wordList.append(beginWord)
         wordDic = {}
         for word in wordList:
-            wordDic[word] = []
-            for theOther in wordList:
-                if self.diff(word,theOther) == 1:
-                    wordDic[word].append(theOther)
-        wordDic[beginWord] = []
-        for theOther in wordList:
-            if self.diff(beginWord, theOther) == 1:
-                wordDic[beginWord].append(theOther)
-        print(wordDic)
+            for i in range(len(word)):
+                s = word[:i] + "_" + word[i+1:]
+                wordDic[s] = wordDic.get(s,[]) + [word]
+
         doneSet = set()
-        steps = 1
-        q = queue.Queue()
-        q.put(beginWord)
-        while q.qsize() > 0:
-            size = q.qsize()
-            for i in range(size):
-                curr = q.get()
-                if curr == endWord:
-                    return steps
-                for word in wordDic[curr]:
-                    if word not in doneSet:
-                        q.put(word)
-                        doneSet.add(word)
-            steps += 1
+        q = deque()
+        q.append((beginWord,1))
+        while len(q) > 0:
+            curr,steps= q.popleft()
+            if curr == endWord:
+                return steps
+            for i in range(len(curr)):
+                s = curr[:i] + "_" + curr[i+1:]
+                next_words = wordDic.get(s,[])
+                for next_word in next_words:
+                    if next_word not in doneSet:
+                        doneSet.add(next_word)
+                        q.append((next_word,steps + 1))
 
         return 0
+
 
 so = Solution()
 beginWord = "hit"
