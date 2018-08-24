@@ -1,7 +1,6 @@
 from collections import deque
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList):
-        wordList.append(beginWord)
         wordDic = {}
         for word in wordList:
             for i in range(len(word)):
@@ -26,12 +25,3 @@ class Solution:
         return 0
 
 
-so = Solution()
-beginWord = "hit"
-endWord = "cog"
-wordList = ["hot","dot","dog","lot","log","cog"]
-
-beginWord="leet"
-endWord="code"
-wordList=["lest","leet","lose","code","lode","robe","lost"]
-print(so.ladderLength(beginWord,endWord,wordList))
