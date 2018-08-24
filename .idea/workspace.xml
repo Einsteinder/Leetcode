@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/138. Copy List with Random Pointer.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/139. Word Break.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +30,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$14__Longest_Common_Prefix.coverage" NAME="14. Longest Common Prefix Coverage Results" MODIFIED="1532660536736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$17__Letter_Combinations_of_a_Phone_Number.coverage" NAME="17. Letter Combinations of a Phone Number Coverage Results" MODIFIED="1534639005717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$20__Valid_Parentheses.coverage" NAME="20. Valid Parentheses Coverage Results" MODIFIED="1534868576485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$139__Word_Break.coverage" NAME="139. Word Break Coverage Results" MODIFIED="1535149257732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$5__Longest_Palindromic_Substring.coverage" NAME="5. Longest Palindromic Substring Coverage Results" MODIFIED="1531589279105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$127__Word_Ladder.coverage" NAME="127. Word Ladder Coverage Results" MODIFIED="1535124729326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$102__Binary_Tree_Level_Order_Traversal.coverage" NAME="102. Binary Tree Level Order Traversal Coverage Results" MODIFIED="1535039524014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -72,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="138. Copy List with Random Pointer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="138. Copy List with Random Pointer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/138. Copy List with Random Pointer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="139. Word Break.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/139. Word Break.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -152,6 +163,7 @@
         <option value="$PROJECT_DIR$/127. Word Ladder.py" />
         <option value="$PROJECT_DIR$/126. Word Ladder II.py" />
         <option value="$PROJECT_DIR$/138. Copy List with Random Pointer.py" />
+        <option value="$PROJECT_DIR$/139. Word Break.py" />
       </list>
     </option>
   </component>
@@ -230,26 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.126. Word Ladder II">
-    <configuration name="102. Binary Tree Level Order Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/102. Binary Tree Level Order Traversal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.139. Word Break">
     <configuration name="119. Pascal's Triangle II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,6 +300,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="139. Word Break" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/139. Word Break.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="TT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,19 +339,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.102. Binary Tree Level Order Traversal" />
-      <item index="1" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TT" />
-      <item index="3" class="java.lang.String" itemvalue="Python.127. Word Ladder" />
-      <item index="4" class="java.lang.String" itemvalue="Python.126. Word Ladder II" />
+      <item index="0" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TT" />
+      <item index="2" class="java.lang.String" itemvalue="Python.127. Word Ladder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.126. Word Ladder II" />
+      <item index="4" class="java.lang.String" itemvalue="Python.139. Word Break" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.126. Word Ladder II" />
-        <item index="1" class="java.lang.String" itemvalue="Python.127. Word Ladder" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TT" />
-        <item index="3" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
-        <item index="4" class="java.lang.String" itemvalue="Python.102. Binary Tree Level Order Traversal" />
+        <item index="0" class="java.lang.String" itemvalue="Python.139. Word Break" />
+        <item index="1" class="java.lang.String" itemvalue="Python.126. Word Ladder II" />
+        <item index="2" class="java.lang.String" itemvalue="Python.127. Word Ladder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TT" />
+        <item index="4" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535135290709</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="138 AC">
+      <created>1535144637516</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1535144637516</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,7 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Time Limit Exceeded" />
     <MESSAGE value="10 WORKS" />
     <MESSAGE value="11 WORKS" />
     <MESSAGE value="12 stupid" />
@@ -633,7 +651,8 @@
     <MESSAGE value="127 TLE" />
     <MESSAGE value="127 AC 84.03%" />
     <MESSAGE value="126 TLE" />
-    <option name="LAST_COMMIT_MESSAGE" value="126 TLE" />
+    <MESSAGE value="138 AC" />
+    <option name="LAST_COMMIT_MESSAGE" value="138 AC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,7 +712,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/submit/submit/output.txt" />
     <entry file="file://$USER_HOME$/Downloads/submit/submit/movies.csv" />
     <entry file="file://$PROJECT_DIR$/76. Minimum Window Substring.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,6 +979,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/139. Word Break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
