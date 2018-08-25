@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f206400-13e6-45d0-8a16-e63b59782109" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/139. Word Break.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/141. Linked List Cycle.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="139. Word Break.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="139. Word Break.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/139. Word Break.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
               <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="141. Linked List Cycle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/141. Linked List Cycle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -164,6 +174,7 @@
         <option value="$PROJECT_DIR$/126. Word Ladder II.py" />
         <option value="$PROJECT_DIR$/138. Copy List with Random Pointer.py" />
         <option value="$PROJECT_DIR$/139. Word Break.py" />
+        <option value="$PROJECT_DIR$/141. Linked List Cycle.py" />
       </list>
     </option>
   </component>
@@ -579,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535144637516</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="139 AC 81.44%">
+      <created>1535149354259</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1535149354259</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,7 +645,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10 WORKS" />
     <MESSAGE value="11 WORKS" />
     <MESSAGE value="12 stupid" />
     <MESSAGE value="12 Correct Now" />
@@ -652,7 +669,8 @@
     <MESSAGE value="127 AC 84.03%" />
     <MESSAGE value="126 TLE" />
     <MESSAGE value="138 AC" />
-    <option name="LAST_COMMIT_MESSAGE" value="138 AC" />
+    <MESSAGE value="139 AC 81.44%" />
+    <option name="LAST_COMMIT_MESSAGE" value="139 AC 81.44%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,7 +730,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/submit/submit/movies.csv" />
     <entry file="file://$PROJECT_DIR$/76. Minimum Window Substring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -987,6 +1004,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/141. Linked List Cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding />
         </state>
       </provider>
