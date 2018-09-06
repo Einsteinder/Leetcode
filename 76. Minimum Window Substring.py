@@ -1,51 +1,45 @@
 #S = "cabwefgewcwaefgcf"
 #T = "cae"
-S = "a"
-T = "a"
+#S = "a"
+#T = "a"
 #S="ask_not_what_your_country_can_do_for_you_ask_what_you_can_do_for_your_country"
 #T="ask_country"
-#S = "ADOBECODEBANC"
-#T = "ABC"
-class Solution:
-	def minWindow(self, s, t):
-		def ifcontain(sub,t):
-			listT = list(t)
-			for i in range(len(sub)):
-				if sub[i] in listT:
-					listT.remove(sub[i])
-			if len(listT)>0:
-				return False
-			else:
-				return True
+import collections
+import sys
+S = "ADOBECODEBANC"
+T = "ABC"
+class Solution(object):
+	def minWindow(self, string, target):
+		target_dic = collections.Counter(target)
+		r = 0
+		l = 0
+		h = 0
+		subStringLength = sys.maxsize
+		count = len(target)
+		while r < len(string):
+			if target_dic[string[r]] > 0:
+				count -= 1
+			target_dic[string[r]] -= 1
+			r += 1
 
-		if not ifcontain(s,t):
-			return ""
+			while count == 0:
+				if r - l  < subStringLength:
+					subStringLength = r - l
+					h=l
+				target_dic[string[l]] += 1
+				if target_dic[string[l]] > 0:
+					count += 1
+				l += 1
+		return "" if subStringLength == sys.maxsize else string[h:h+subStringLength]
 
 
-		result = ""
-		length =len(s)
-		elementIndexList = []
 
-		for i in range(len(s)):
-			if s[i] in t:
-				elementIndexList.append(i)
-		def nextElement(elemindex):
-			try:
-				return elementIndexList[elementIndexList.index(elemindex)+1]
-			except:
-				return elementIndexList[-1]+2
-		l = elementIndexList[0]
-		r = elementIndexList[0]
-		while r <=elementIndexList[-1]:
-			if ifcontain(s[l:r+1],t):
-				if len(s[l:r+1])<=length:
-					result=s[l:r+1]
-					length=len(s[l:r+1])
-				l = nextElement(l)
-			else:
-				r = nextElement(r)
 
-		return result
+
+
+
+
+
 
 so = Solution()
 print(so.minWindow(S,T))
