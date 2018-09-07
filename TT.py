@@ -1,7 +1,8 @@
-import collections
-p1 = [3] * 3
-p2 = [3,2,2]
+class CBArray:
+    def __init__(self,content,dtpye=None):
+        self.content = content
+    def __add__(self,other):
+        return self.__init__(self.content + other.content)
+a = CBArray([2])
 
-pc = collections.Counter(p2)
-pc[5] += 3
-print(pc)
+print(type(complex(0,1)))
