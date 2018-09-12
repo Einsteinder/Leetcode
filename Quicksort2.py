@@ -9,7 +9,7 @@ def partition(lst,l,r):
     storeIndex = l
     for i in range(l,r):
         if lst[i] < pivot:
-            swap(lst,storeIndex,i)
+            lst[storeIndex],lst[i] = lst[i], lst[storeIndex]
             storeIndex += 1
     swap(lst,storeIndex,r)
     return storeIndex
